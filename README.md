@@ -1,6 +1,9 @@
-# grid-puzzle-analysis
+# generalized-bomberman
 
 ### Game Rules
+
+A generalized version of the game Bomberman. No obstacles and bombs go in 8 directions and have a range limited by the size of the grid.  
+
 This comes from a puzzle for which the board is a 23x23 grid. The red squares--capturables--represent spots for which you need to capture using bombs. The bombs explode in 8 directions, N, NE, E, SE, S, SW, W, and NW. You can place a blue square--bomb--at any point on the grid except spots occupied by capturables. The goal is to capture all red squares using a limited number of blue squares.
 
 ### Generating Puzzle
