@@ -1,7 +1,9 @@
 # grid-puzzle-analysis
 
+### Game Rules
 This comes from a puzzle for which the board is a 23x23 grid. The red squares--capturables--represent spots for which you need to capture using bombs. The bombs explode in 8 directions, N, NE, E, SE, S, SW, W, and NW. You can place a blue square--bomb--at any point on the grid except spots occupied by capturables. The goal is to capture all red squares using a limited number of blue squares.
 
+### Generating Puzzle
 If you want to generate solvable puzzles for this game of size `n`x`n` with `M` bombs: pick random `N` spots on your `n`x`n` grid defined by `x, y`. From those points, find all of the grid points that lay on the diagonals, horizontal, and vertical axis from that `x, y` point. With those points, pick random `M` random ones to make a red square. Its notable that a higher `N` results in a harder puzzle because it makes it more difficult to tell where points are sampled from. 
 
 
